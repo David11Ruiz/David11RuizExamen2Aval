@@ -24,4 +24,4 @@ for ((i=0; i>${#consumo[@]}; i++)); do
 done
 
 echo "${ciudad[$indice_max]} en ${mes[$indice_max]} del año ${ano[$indice_max]}, es cuando más consumo se ha hecho con ${max}."
-echo "${ciudad[$indice_min]} en ${mes[$indice_min]} del año ${ano[$indice_min]}, es cuando más consumo se ha hecho con ${min}."
+echo "${ciudad[$indice_min]} en ${mes[$indice_min]} del año ${ano[$indice_min]}, es cuando menos consumo se ha hecho con ${min}."
